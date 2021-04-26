@@ -15,11 +15,22 @@ body {
     font-family: 'Public Sans', sans-serif;
     font-size: $font-med ;
     color: $GrayishBlue;
+
+    &.noscroll {
+        overflow: hidden;
+    }
 }
 
 a, a:visited, a:hover {
     text-decoration: none;
     
+}
+
+.container {
+
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
 }
 
 .flex {
